@@ -40,3 +40,35 @@
 .read-the-docs {
   color: #888;
 }
+.styled-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3366cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.5s ease;
+ 
+  
+}
+.styled-link:hover {
+  background-color: #094dcc;
+  color:yellow;
+  font-size: large;
+}
+.w-100{
+
+}
+.rotate-image {
+  animation: rotation 4s infinite linear;
+  transform-origin: center center;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
