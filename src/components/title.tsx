@@ -7,10 +7,13 @@ import { RootState } from "../store";
 
     return(
         <div className="imgBlock"> 
-        <img  className="rotate-image" src={img} alt="" />
-        <img  className="rotate-image1" src={img2} alt="" width="300" height="300"/>
+        
+        <div><img  className="rotate-image" src={img} alt="" /></div>
+        <div><img  className="rotate-image1" src={img2} alt="" width="300" height="300"/></div>
 
         </div>
+        
+       
     )
 }
 

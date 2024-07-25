@@ -55,6 +55,7 @@
   background-color: #094dcc;
   color:yellow;
   font-size: large;
+  transition: 0.5s;
 }
 .w-100{
 
@@ -71,4 +72,18 @@
   to {
     transform: rotateY(360deg);
   }
+}
+
+.imgBlock{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imgmodule{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
 }

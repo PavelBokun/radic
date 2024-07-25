@@ -1,5 +1,7 @@
 
 import './App.css'
+import { End } from './components/end'
+import { ImgBlock } from './components/img'
 import { Radic } from './components/radic'
 import { Title } from './components/title'
 
@@ -12,7 +14,8 @@ function App() {
           На сайт ➡
         </a>
       <Title />
-     <Radic /> 
+       <ImgBlock />
+       <End />
     </>
   )
 }
