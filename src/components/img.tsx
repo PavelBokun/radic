@@ -1,9 +1,9 @@
  export const ImgBlock=()=>{
     return (
         <div className="imgmodule">
-        <div><img src="https://moscow.elfgroup.ru/upload/resize_cache/iblock/e29/390_390_2/radiator_chugunnyy_ms_140_m_500_lugansk_7_sektsiy.jpg" alt="" /></div>
-        <div><img src="https://moscow.elfgroup.ru/upload/resize_cache/iblock/378/tnpnudfop0a77x3gjblooiz45iwwcf5r/390_390_2/8_500_100.jpg" alt="" /></div>
-        <div><img src="https://moscow.elfgroup.ru/upload/resize_cache/iblock/286/390_390_2/500_80_10_main.jpg" alt="" /></div>
+        <div><img src="https://tg-alterra.ru/upload/iblock/cc4/by9bxhpayip05zvts40kf5aajoxvgczy.jpg" width={400} alt="" /></div>
+        <div><img src="https://cdn1.ozone.ru/s3/multimedia-w/6103811072.jpg" width={400} alt="" /></div>
+        <div><img src="https://u-keramika.ru/wp-content/uploads/c/f/e/cfe5281b2bfacd6d87539e6de4af92eb.png"  width={400} alt="" /></div>
         </div>
     )
 }
