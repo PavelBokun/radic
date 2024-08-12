@@ -58,7 +58,7 @@
 }
 .w-100 {
 }
-.rotate-image{
+.rotate-image {
   animation: rotation 4s infinite linear;
   transform-origin: center center;
 }
@@ -97,16 +97,43 @@
     color: red;
   }
 }
+@keyframes text-color-change2 {
+  0% {
+    color: red;
+  }
+  50% {
+    color: white
+  }
+  100% {
+    color: red;
+  }
+}
 .changeColor {
   font-size: 28px;
   font-weight: bold;
   animation: text-color-change 5s infinite;
 }
 .changeColor2 {
-  font-size: 28px;
+  font-size: 38px;
   font-weight: bold;
-  animation: text-color-change 5s infinite;
+  animation: text-color-change2 5s infinite;
 }
+@media only screen and (max-width: 768px) {
+  .imgmodule {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* Здесь определяйте стили для мобильных устройств */
+}
+/* body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/ARDONIX_.png');
+  background-size: cover;
+  background-attachment: fixed; 
+}  */
 /* body{
   background-image: url('./assets/ARDONIX_.png');
 } */
