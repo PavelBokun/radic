@@ -48,19 +48,17 @@
   text-decoration: none;
   border-radius: 4px;
   transition: background-color 0.5s ease;
- 
-  
+  border: none;
+  transition: 0.5s;
 }
 .styled-link:hover {
   background-color: #094dcc;
-  color:yellow;
-  font-size: large;
-  transition: 0.5s;
+  color: yellow;
+  transform: scale(1.5);
 }
-.w-100{
-
+.w-100 {
 }
-.rotate-image {
+.rotate-image{
   animation: rotation 4s infinite linear;
   transform-origin: center center;
 }
@@ -74,16 +72,41 @@
   }
 }
 
-.imgBlock{
+.imgBlock {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.imgmodule{
+.imgmodule {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
 }
+
+@keyframes text-color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+.changeColor {
+  font-size: 28px;
+  font-weight: bold;
+  animation: text-color-change 5s infinite;
+}
+.changeColor2 {
+  font-size: 28px;
+  font-weight: bold;
+  animation: text-color-change 5s infinite;
+}
+/* body{
+  background-image: url('./assets/ARDONIX_.png');
+} */
