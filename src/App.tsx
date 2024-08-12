@@ -6,7 +6,7 @@ import { Title } from "./components/title";
 function App() {
   return (
     <>
-      <h2 className="changeColor">Узнать больше</h2>
+      {/* <h2 className="changeColor">Узнать больше</h2> */}
       <a href="https://ardonix.by/" className="styled-link">
         На сайт ➡
       </a>
